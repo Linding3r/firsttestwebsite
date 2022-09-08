@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(240, 245, 239);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header {
+    background-color: white;
+    backdrop-filter: blur(10px) saturate(70%);
+    padding: 30px;
+    font-family: TangoSans, sans-serif;
+    font-size: 50px;
+    color: rgb(226, 0, 0);
+}
+.topnav {
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: TangoSans, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: grey;
+    color: white;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 1920px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div1 {
+    background-color: yellow;
+    color: black;
+    font-family: TangoSans, sans-serif;
+    font-weight: 200;
+    font-size: 9vw;
+    text-align: center;
+
+}
+.div2 {
+    background-color: green;
+    color: white;
+    font-family: TangoSans, sans-serif;
+    font-weight: 200;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.div3 {
+    background-color: Black;
+    color: yellow;
+    font-family: TangoSans, sans-serif;
+    font-weight: 200;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.div4 {
+    background-color: rgb(194, 229, 227);
+    color: black;
+    font-family: TangoSans, sans-serif;
+    font-weight: 50;
+    font-size: 3vw;
+    text-align: center;
+}
+
