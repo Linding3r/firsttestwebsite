@@ -17,12 +17,18 @@ public class MainController {
     return "index";
   }
 
-  @PostMapping("/goauto")
-  public String goauto1(){
+  @GetMapping("/weather")
+  public String weather(){
     return "weather";
   }
-  @GetMapping("/goauto")
-  public String goauto2(){
-    return "weather";
+
+  @GetMapping("/sport")
+  public String sport(){
+    return "sport";
+  }
+
+  @GetMapping("/entertainment")
+  public String entertainment(){
+    return "entertainment";
   }
 }

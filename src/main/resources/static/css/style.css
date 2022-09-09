@@ -7,10 +7,13 @@ body{
 header {
     background-color: white;
     backdrop-filter: blur(10px) saturate(70%);
-    padding: 30px;
-    font-family: TangoSans, sans-serif;
-    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Freshman, sans-serif;
+    font-size: 85px;
+    font-weight: bolder;
     color: rgb(226, 0, 0);
+    box-shadow: 1px 3px 50px grey;
 }
 .topnav {
     overflow: hidden;
@@ -23,8 +26,14 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1vw;
     font-family: TangoSans, sans-serif;
+}
+
+.dropshadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .topnav a:hover {
@@ -42,7 +51,20 @@ header {
     flex-direction: column;
     min-width: 300px;
     max-width: 1920px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flexContainerRow{
+    display: flex;
+    flex-direction: row;
+    min-width: 150px;
+    max-width: 1920px;
+    margin-bottom: 20px;
     margin-left: 20%;
     margin-right: 20%;
     display: flex;
@@ -63,8 +85,8 @@ header {
     font-weight: 200;
     font-size: 9vw;
     text-align: center;
-
 }
+
 .div2 {
     background-color: green;
     color: white;
@@ -89,6 +111,15 @@ header {
     font-family: TangoSans, sans-serif;
     font-weight: 50;
     font-size: 3vw;
+    text-align: center;
+}
+
+.div5 {
+    background-color: white;
+    color: black;
+    font-family: TangoSans, sans-serif;
+    font-weight: 200;
+    font-size: 6vw;
     text-align: center;
 }
 
